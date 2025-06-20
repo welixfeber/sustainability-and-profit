@@ -1,0 +1,30 @@
+C:\Users\felix\PycharmProjects\Master\.venv\Scripts\python.exe C:\Users\felix\PycharmProjects\Master\calculate_relationship_stock_esg.py 
+Pearson correlation: 0.069
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       normalized_price   R-squared:                       0.005
+Model:                            OLS   Adj. R-squared:                  0.002
+Method:                 Least Squares   F-statistic:                     1.222
+Date:                Thu, 22 May 2025   Prob (F-statistic):              0.270
+Time:                        15:55:34   Log-Likelihood:                -695.69
+No. Observations:                 407   AIC:                             1395.
+Df Residuals:                     405   BIC:                             1403.
+Df Model:                           1                                         
+Covariance Type:                  HC0                                         
+========================================================================================
+                           coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                    1.6806      0.258      6.505      0.000       1.174       2.187
+Total ESG Risk score     0.0130      0.012      1.105      0.269      -0.010       0.036
+==============================================================================
+Omnibus:                      379.129   Durbin-Watson:                   1.948
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            13794.217
+Skew:                           3.875   Prob(JB):                         0.00
+Kurtosis:                      30.447   Cond. No.                         71.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+
+Process finished with exit code 0

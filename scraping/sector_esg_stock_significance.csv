@@ -1,0 +1,181 @@
+Sector,ESG_metric,Perf_metric,n,pearson_r,p_value,significant
+Healthcare,Total ESG Risk score,daily_return,59520,0.0015024048535993242,0.7139696080463289,False
+Healthcare,Total ESG Risk score,cum_return,59520,0.10929644362876834,1.4369526784666364e-157,True
+Healthcare,Total ESG Risk score,volatility,59520,-0.008795493283102238,0.031888268128087954,True
+Healthcare,Environment Risk Score,daily_return,59520,0.004785221419398546,0.24304108544859332,False
+Healthcare,Environment Risk Score,cum_return,59520,0.2481273060130622,0.0,True
+Healthcare,Environment Risk Score,volatility,59520,0.1044285796534405,6.007314858932969e-144,True
+Healthcare,Governance Risk Score,daily_return,59520,0.00607340726443423,0.13842152760100962,False
+Healthcare,Governance Risk Score,cum_return,59520,0.223753990921622,0.0,True
+Healthcare,Governance Risk Score,volatility,59520,-0.04731332479912243,7.457578009353315e-31,True
+Healthcare,Social Risk Score,daily_return,59520,-0.002145838806491311,0.6006236261235387,False
+Healthcare,Social Risk Score,cum_return,59520,-0.02191332051227144,8.959141195270579e-08,True
+Healthcare,Social Risk Score,volatility,59520,-0.03954971015180227,4.801567539317008e-22,True
+Healthcare,Controversy Score,daily_return,59520,-0.0047532162976794854,0.2462071719675783,False
+Healthcare,Controversy Score,cum_return,59520,-0.04119073167911787,8.889267935760383e-24,True
+Healthcare,Controversy Score,volatility,59520,-0.2230769135797696,0.0,True
+Technology,Total ESG Risk score,daily_return,73160,-0.002472088708677782,0.5037233929400284,False
+Technology,Total ESG Risk score,cum_return,73160,-0.060834955458084705,6.059375362626756e-61,True
+Technology,Total ESG Risk score,volatility,73160,0.01323486226900853,0.00034375848844507095,True
+Technology,Environment Risk Score,daily_return,73160,-0.0014778258373496873,0.68936476534048,False
+Technology,Environment Risk Score,cum_return,73160,-0.05173587462907394,1.500342422022973e-44,True
+Technology,Environment Risk Score,volatility,73160,0.13849512459315008,4.56017095688036e-310,True
+Technology,Governance Risk Score,daily_return,73160,0.00045117216460631,0.9028741162167673,False
+Technology,Governance Risk Score,cum_return,73160,0.10061486905907785,6.712095255145275e-164,True
+Technology,Governance Risk Score,volatility,73160,-0.020334656721789624,3.784707840695402e-08,True
+Technology,Social Risk Score,daily_return,73160,-0.002380016735145368,0.5197444717329996,False
+Technology,Social Risk Score,cum_return,73160,-0.052195060227155005,2.583438500816106e-45,True
+Technology,Social Risk Score,volatility,73160,-0.16114656281299267,0.0,True
+Technology,Controversy Score,daily_return,73160,0.00174769874653287,0.6364188915304709,False
+Technology,Controversy Score,cum_return,73160,0.13839869685110265,1.23519023884685e-309,True
+Technology,Controversy Score,volatility,73160,-0.03393862928238761,4.2219858595284084e-20,True
+Financial Services,Total ESG Risk score,daily_return,71920,0.0030955957154553595,0.4064475011813663,False
+Financial Services,Total ESG Risk score,cum_return,71920,0.17799672134292016,0.0,True
+Financial Services,Total ESG Risk score,volatility,71920,0.10040709981106409,1.6986233183722366e-160,True
+Financial Services,Environment Risk Score,daily_return,71920,-0.0017569087947121066,0.6375276972139482,False
+Financial Services,Environment Risk Score,cum_return,71920,-0.17484663584789825,0.0,True
+Financial Services,Environment Risk Score,volatility,71920,0.0663778416334462,4.900413067201376e-71,True
+Financial Services,Governance Risk Score,daily_return,71920,0.007895807969071056,0.034218585057301625,True
+Financial Services,Governance Risk Score,cum_return,71920,0.4892412692792325,0.0,True
+Financial Services,Governance Risk Score,volatility,71920,-0.018972188744326917,3.612628675891132e-07,True
+Financial Services,Social Risk Score,daily_return,71920,-0.0008422384353776811,0.8213050100120073,False
+Financial Services,Social Risk Score,cum_return,71920,-0.06618817280173217,1.2186066143725836e-70,True
+Financial Services,Social Risk Score,volatility,71920,0.16335297551661376,0.0,True
+Financial Services,Controversy Score,daily_return,71920,0.0013641269103917026,0.7144963626082037,False
+Financial Services,Controversy Score,cum_return,71920,0.07336555213497903,2.1009568128848952e-86,True
+Financial Services,Controversy Score,volatility,71920,0.06545499140205835,4.0228738897584336e-69,True
+Consumer Defensive,Total ESG Risk score,daily_return,40920,-0.0009471081941714406,0.8480698041861573,False
+Consumer Defensive,Total ESG Risk score,cum_return,40920,0.00829418462889377,0.09338952668548745,False
+Consumer Defensive,Total ESG Risk score,volatility,40920,-0.07564742548378366,5.288023961249952e-53,True
+Consumer Defensive,Environment Risk Score,daily_return,40920,-0.0026991029302186518,0.5850813711193922,False
+Consumer Defensive,Environment Risk Score,cum_return,40920,-0.11042147140179376,3.543566043132769e-111,True
+Consumer Defensive,Environment Risk Score,volatility,40920,-0.0695605304243291,4.512677802836753e-45,True
+Consumer Defensive,Governance Risk Score,daily_return,40920,0.001300838883824681,0.7924467049797366,False
+Consumer Defensive,Governance Risk Score,cum_return,40920,0.1288083283490515,6.740297850105056e-151,True
+Consumer Defensive,Governance Risk Score,volatility,40920,-0.017832411327786048,0.0003092326923757217,True
+Consumer Defensive,Social Risk Score,daily_return,40920,0.0019549145345844946,0.6925167568822658,False
+Consumer Defensive,Social Risk Score,cum_return,40920,0.15342281377985842,5.798298044845676e-214,True
+Consumer Defensive,Social Risk Score,volatility,40920,-0.05391821533682306,9.820780248221305e-28,True
+Consumer Defensive,Controversy Score,daily_return,40920,0.008379562795083789,0.09006518395215385,False
+Consumer Defensive,Controversy Score,cum_return,40920,0.38178627993548,0.0,True
+Consumer Defensive,Controversy Score,volatility,40920,-0.11421660189106307,7.295864261184002e-119,True
+Industrials,Total ESG Risk score,daily_return,69440,0.0020781106973578023,0.5839642118730293,False
+Industrials,Total ESG Risk score,cum_return,69440,0.19282919158823242,0.0,True
+Industrials,Total ESG Risk score,volatility,69440,0.1477643221251842,0.0,True
+Industrials,Environment Risk Score,daily_return,69440,0.004184779366231469,0.2701418808282336,False
+Industrials,Environment Risk Score,cum_return,69440,0.2132358262112626,0.0,True
+Industrials,Environment Risk Score,volatility,69440,0.08857280968779156,5.962465311222386e-121,True
+Industrials,Governance Risk Score,daily_return,69440,0.005440448795213864,0.15167985838701148,False
+Industrials,Governance Risk Score,cum_return,69440,0.36420155599125736,0.0,True
+Industrials,Governance Risk Score,volatility,69440,0.11554991043744392,5.496045064969151e-205,True
+Industrials,Social Risk Score,daily_return,69440,-0.002189754648453861,0.5639240159394441,False
+Industrials,Social Risk Score,cum_return,69440,0.0017650758641395313,0.6418487925425183,False
+Industrials,Social Risk Score,volatility,69440,0.12810581197577361,7.400298298833725e-252,True
+Industrials,Controversy Score,daily_return,69440,0.0006754008491378178,0.8587427096775975,False
+Industrials,Controversy Score,cum_return,69440,0.04923055313440999,1.5761637839260584e-38,True
+Industrials,Controversy Score,volatility,69440,0.05119130579990496,1.6009343583138868e-41,True
+Utilities,Total ESG Risk score,daily_return,34720,0.007313700023677119,0.17296034184451708,False
+Utilities,Total ESG Risk score,cum_return,34720,0.2691541914626541,0.0,True
+Utilities,Total ESG Risk score,volatility,34720,0.17177733808693124,3.926040985885268e-228,True
+Utilities,Environment Risk Score,daily_return,34720,0.005888906868284942,0.27252429969178643,False
+Utilities,Environment Risk Score,cum_return,34720,0.2601622300405367,0.0,True
+Utilities,Environment Risk Score,volatility,34720,0.06790945819017499,8.901612941718502e-37,True
+Utilities,Governance Risk Score,daily_return,34720,0.0014554175170037112,0.7862504847190598,False
+Utilities,Governance Risk Score,cum_return,34720,0.04981471125987528,1.578684634010787e-20,True
+Utilities,Governance Risk Score,volatility,34720,0.1246691885449783,2.767345798347238e-120,True
+Utilities,Social Risk Score,daily_return,34720,0.003534841570550819,0.5101294737548706,False
+Utilities,Social Risk Score,cum_return,34720,0.0838677370429722,3.1025969129322616e-55,True
+Utilities,Social Risk Score,volatility,34720,0.1656130648500172,5.602958542099351e-212,True
+Utilities,Controversy Score,daily_return,34720,0.002738278382580747,0.6099013287371532,False
+Utilities,Controversy Score,cum_return,34720,0.04110760876393722,1.8210896014276608e-14,True
+Utilities,Controversy Score,volatility,34720,0.11658735954925756,2.4417322246986302e-105,True
+Basic Materials,Total ESG Risk score,daily_return,21080,0.016980090610374438,0.013687453520130387,True
+Basic Materials,Total ESG Risk score,cum_return,21080,0.6539215552391702,0.0,True
+Basic Materials,Total ESG Risk score,volatility,21080,0.3040956227411914,0.0,True
+Basic Materials,Environment Risk Score,daily_return,21080,0.008217320280428552,0.23286221727100415,False
+Basic Materials,Environment Risk Score,cum_return,21080,0.28733696768631395,0.0,True
+Basic Materials,Environment Risk Score,volatility,21080,0.196228547286621,5.27759448016296e-182,True
+Basic Materials,Governance Risk Score,daily_return,21080,0.008252993434679862,0.23084010089847593,False
+Basic Materials,Governance Risk Score,cum_return,21080,0.3096506858216773,0.0,True
+Basic Materials,Governance Risk Score,volatility,21080,0.12305151887757093,6.526159371750156e-72,True
+Basic Materials,Social Risk Score,daily_return,21080,0.01558711955672349,0.02363015097961406,True
+Basic Materials,Social Risk Score,cum_return,21080,0.6408690119206656,0.0,True
+Basic Materials,Social Risk Score,volatility,21080,0.2677103635865655,0.0,True
+Basic Materials,Controversy Score,daily_return,21080,0.000907244314783405,0.8952100426447416,False
+Basic Materials,Controversy Score,cum_return,21080,0.00035297442193193973,0.9591301718102486,False
+Basic Materials,Controversy Score,volatility,21080,0.15008567559584576,1.9186835843589853e-106,True
+Real Estate,Total ESG Risk score,daily_return,34720,-0.001526132303441469,0.7761354355096726,False
+Real Estate,Total ESG Risk score,cum_return,34720,-0.10495310903053023,1.2777607814444198e-85,True
+Real Estate,Total ESG Risk score,volatility,34720,0.04936849153405566,3.44027225748522e-20,True
+Real Estate,Environment Risk Score,daily_return,34720,-0.0007601592499351096,0.8873661858948634,False
+Real Estate,Environment Risk Score,cum_return,34720,-0.013366934690976912,0.01274834295260914,True
+Real Estate,Environment Risk Score,volatility,34720,-0.057204018656943675,1.4469467112457158e-26,True
+Real Estate,Governance Risk Score,daily_return,34720,-0.002004463441754807,0.7087877415562454,False
+Real Estate,Governance Risk Score,cum_return,34720,-0.10248100749725342,1.0586086777347385e-81,True
+Real Estate,Governance Risk Score,volatility,34720,0.015293066220622858,0.004376495707330625,True
+Real Estate,Social Risk Score,daily_return,34720,-0.0013666773114576457,0.7989949189338303,False
+Real Estate,Social Risk Score,cum_return,34720,-0.13640842924783247,7.871175423479752e-144,True
+Real Estate,Social Risk Score,volatility,34720,0.10417442688912357,2.243390689325136e-84,True
+Real Estate,Controversy Score,daily_return,34720,0.005794913818602381,0.2802517090679647,False
+Real Estate,Controversy Score,cum_return,34720,0.30904939102745255,0.0,True
+Real Estate,Controversy Score,volatility,34720,-0.05477803299439707,1.7118254359424773e-24,True
+Consumer Cyclical,Total ESG Risk score,daily_return,59520,0.004368314228178038,0.28655559647921586,False
+Consumer Cyclical,Total ESG Risk score,cum_return,59520,0.08927501673913082,1.394137046540626e-105,True
+Consumer Cyclical,Total ESG Risk score,volatility,59520,0.22218858664476437,0.0,True
+Consumer Cyclical,Environment Risk Score,daily_return,59520,0.0007404172543368135,0.8566550523247278,False
+Consumer Cyclical,Environment Risk Score,cum_return,59520,-0.08539980943846863,9.531418735847398e-97,True
+Consumer Cyclical,Environment Risk Score,volatility,59520,0.10407262074687215,5.622148389568296e-143,True
+Consumer Cyclical,Governance Risk Score,daily_return,59520,0.0017955942622684801,0.6613447634240024,False
+Consumer Cyclical,Governance Risk Score,cum_return,59520,0.03691634628461327,2.07452266935326e-19,True
+Consumer Cyclical,Governance Risk Score,volatility,59520,0.20643559494652158,0.0,True
+Consumer Cyclical,Social Risk Score,daily_return,59520,0.005497857529728984,0.17982990680789307,False
+Consumer Cyclical,Social Risk Score,cum_return,59520,0.20731509301076573,0.0,True
+Consumer Cyclical,Social Risk Score,volatility,59520,0.14661386297287388,3.20357758930272e-283,True
+Consumer Cyclical,Controversy Score,daily_return,59520,0.0022129241315193547,0.5892865151933743,False
+Consumer Cyclical,Controversy Score,cum_return,59520,0.07072087043895195,7.27717283390522e-67,True
+Consumer Cyclical,Controversy Score,volatility,59520,0.20688474672860058,0.0,True
+Energy,Total ESG Risk score,daily_return,22320,0.0011667353391773935,0.8616303663511924,False
+Energy,Total ESG Risk score,cum_return,22320,0.044669202611005834,2.447432504915509e-11,True
+Energy,Total ESG Risk score,volatility,22320,0.19371642765251096,1.1956184718974178e-187,True
+Energy,Environment Risk Score,daily_return,22320,0.0011519113028124594,0.8633710355056388,False
+Energy,Environment Risk Score,cum_return,22320,-0.025532749308878708,0.00013619934913624456,True
+Energy,Environment Risk Score,volatility,22320,0.20841089438405597,1.5874545182362292e-217,True
+Energy,Governance Risk Score,daily_return,22320,-0.003948605857525089,0.5552669340253448,False
+Energy,Governance Risk Score,cum_return,22320,-0.32003089419856795,0.0,True
+Energy,Governance Risk Score,volatility,22320,0.16336247647866997,2.6434853475168415e-133,True
+Energy,Social Risk Score,daily_return,22320,0.004536332992361298,0.49796940076112983,False
+Energy,Social Risk Score,cum_return,22320,0.5020273151466674,0.0,True
+Energy,Social Risk Score,volatility,22320,0.015155169839413486,0.023563825285397254,True
+Energy,Controversy Score,daily_return,22320,-0.0025591289379036705,0.7022314429261346,False
+Energy,Controversy Score,cum_return,22320,-0.01288147784684134,0.05429828666267673,False
+Energy,Controversy Score,volatility,22320,-0.11737575491370962,2.659205603662952e-69,True
+,Total ESG Risk score,daily_return,0,,,False
+,Total ESG Risk score,cum_return,0,,,False
+,Total ESG Risk score,volatility,0,,,False
+,Environment Risk Score,daily_return,0,,,False
+,Environment Risk Score,cum_return,0,,,False
+,Environment Risk Score,volatility,0,,,False
+,Governance Risk Score,daily_return,0,,,False
+,Governance Risk Score,cum_return,0,,,False
+,Governance Risk Score,volatility,0,,,False
+,Social Risk Score,daily_return,0,,,False
+,Social Risk Score,cum_return,0,,,False
+,Social Risk Score,volatility,0,,,False
+,Controversy Score,daily_return,0,,,False
+,Controversy Score,cum_return,0,,,False
+,Controversy Score,volatility,0,,,False
+Communication Services,Total ESG Risk score,daily_return,16120,0.003997576796715558,0.611794737668803,False
+Communication Services,Total ESG Risk score,cum_return,16120,0.20370202937401444,1.443965941151126e-150,True
+Communication Services,Total ESG Risk score,volatility,16120,0.1278497435252809,1.0189340540860573e-59,True
+Communication Services,Environment Risk Score,daily_return,16120,-0.009035465951488022,0.25133267767164913,False
+Communication Services,Environment Risk Score,cum_return,16120,-0.3013472032701534,0.0,True
+Communication Services,Environment Risk Score,volatility,16120,-0.16077702204081482,8.498439635696452e-94,True
+Communication Services,Governance Risk Score,daily_return,16120,0.014151061259834893,0.07239375585152728,False
+Communication Services,Governance Risk Score,cum_return,16120,0.6130337989815708,0.0,True
+Communication Services,Governance Risk Score,volatility,16120,0.31571720707646606,0.0,True
+Communication Services,Social Risk Score,daily_return,16120,0.00433219376331841,0.5823227954350574,False
+Communication Services,Social Risk Score,cum_return,16120,0.19450599843013883,3.354402385992267e-137,True
+Communication Services,Social Risk Score,volatility,16120,0.13289404028828725,2.0343207485943868e-64,True
+Communication Services,Controversy Score,daily_return,16120,0.007784541333275776,0.3230061322870885,False
+Communication Services,Controversy Score,cum_return,16120,0.40704770605207946,0.0,True
+Communication Services,Controversy Score,volatility,16120,0.04364871267805029,2.955508886147935e-08,True
