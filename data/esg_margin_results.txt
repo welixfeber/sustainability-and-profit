@@ -1,0 +1,88 @@
+=== Pearson Correlations ===
+           esg_total       net     gross      oper
+esg_total   1.000000 -0.115777 -0.161335 -0.065963
+net        -0.115777  1.000000  0.405888  0.767117
+gross      -0.161335  0.405888  1.000000  0.398079
+oper       -0.065963  0.767117  0.398079  1.000000
+
+=== OLS Regression: profit margin = net ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    net   R-squared:                       0.013
+Model:                            OLS   Adj. R-squared:                  0.011
+Method:                 Least Squares   F-statistic:                     5.509
+Date:                Wed, 21 May 2025   Prob (F-statistic):             0.0194
+Time:                        17:33:50   Log-Likelihood:                 281.98
+No. Observations:                 407   AIC:                            -560.0
+Df Residuals:                     405   BIC:                            -551.9
+Df Model:                           1                                         
+Covariance Type:                  HC0                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.1857      0.021      8.838      0.000       0.144       0.227
+esg_total     -0.0020      0.001     -2.347      0.019      -0.004      -0.000
+==============================================================================
+Omnibus:                       62.516   Durbin-Watson:                   1.954
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              668.624
+Skew:                           0.077   Prob(JB):                    6.46e-146
+Kurtosis:                       9.277   Cond. No.                         71.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+
+=== OLS Regression: profit margin = gross ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  gross   R-squared:                       0.026
+Model:                            OLS   Adj. R-squared:                  0.024
+Method:                 Least Squares   F-statistic:                     11.66
+Date:                Wed, 21 May 2025   Prob (F-statistic):           0.000704
+Time:                        17:33:50   Log-Likelihood:                -10.579
+No. Observations:                 407   AIC:                             25.16
+Df Residuals:                     405   BIC:                             33.18
+Df Model:                           1                                         
+Covariance Type:                  HC0                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.6346      0.038     16.695      0.000       0.560       0.709
+esg_total     -0.0057      0.002     -3.414      0.001      -0.009      -0.002
+==============================================================================
+Omnibus:                       19.380   Durbin-Watson:                   2.021
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               13.827
+Skew:                           0.338   Prob(JB):                     0.000994
+Kurtosis:                       2.402   Cond. No.                         71.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+
+=== OLS Regression: profit margin = oper ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   oper   R-squared:                       0.004
+Model:                            OLS   Adj. R-squared:                  0.002
+Method:                 Least Squares   F-statistic:                     1.915
+Date:                Wed, 21 May 2025   Prob (F-statistic):              0.167
+Time:                        17:33:50   Log-Likelihood:                 205.36
+No. Observations:                 407   AIC:                            -406.7
+Df Residuals:                     405   BIC:                            -398.7
+Df Model:                           1                                         
+Covariance Type:                  HC0                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.2217      0.023      9.515      0.000       0.176       0.267
+esg_total     -0.0013      0.001     -1.384      0.166      -0.003       0.001
+==============================================================================
+Omnibus:                      154.031   Durbin-Watson:                   1.898
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2583.268
+Skew:                          -1.141   Prob(JB):                         0.00
+Kurtosis:                      15.130   Cond. No.                         71.8
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC0)
+
